@@ -23,3 +23,12 @@ Ofrece búsqueda léxica o semántica, carga temporal de archivos propios, adem�
 **Tecnologías:** Python · HTML · CSS · JavaScript · OpenAI · Docker
 
 [Ver código](https://github.com/NicolasIgles/codebase-explorer-rag) · [Explorar demo](https://codebase-explorer-rag.onrender.com/)
+
+### CSV Processing Automation
+Herramienta en Python para automatizar el procesamiento de múltiples archivos CSV: normaliza columnas, limpia valores vacíos, elimina duplicados exactos por archivo y consolida los resultados.
+
+Genera reportes por archivo, registra cada ejecución e incorpora trazabilidad sobre el origen de los datos.
+
+**Tecnologías:** Python
+
+[Ver código](https://github.com/NicolasIgles/csv-processing-automation)
