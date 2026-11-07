@@ -12,7 +12,9 @@ Aplicación SaaS para la gestión operativa de negocios, con foco en restaurante
 Integra paneles de gestión, permisos por empresa, módulos operativos por rubro e incluye un asistente con IA para consultar información del negocio.
 
 **🧰 Tecnologías:** Next.js · React · TypeScript · PostgreSQL · Prisma · Tailwind CSS · OpenAI
-*pagina: www.somosautoflow.com
+
+pagina: www.somosautoflow.com
+
 *🔒 Proyecto de código privado.*
 
 ### 🔎 Codebase Explorer
