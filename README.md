@@ -1,36 +1,45 @@
-# 👋 Hola, soy Nicolás
+# Nicolás Iglesias
 
-Desarrollo aplicaciones web con foco en la gestión de negocios e inteligencia artificial aplicada.
+**Junior AI Engineer** · Python · LLMs · RAG · n8n · Buenos Aires, Argentina
 
-🛠️ Trabajo con **TypeScript, React, Next.js, Python, PostgreSQL y Prisma**.
+> Desarrollador Python orientado a IA aplicada y automatización. Busco mi primer rol como AI Engineer Jr. o en Automatización con IA.
 
-## 🚀 Proyectos destacados
+I build AI applications in Python and automations that connect language models with real business processes.
 
-### ⚙️ AutoFlow
-Aplicación SaaS para la gestión operativa de negocios, con foco en restaurantes y gimnasios.
+- **In production:** at AutoFlow (used by a real client) I built the assistant (OpenAI API, read-only tool calling) and worked on the WhatsApp → n8n order integration (webhook).
+- **Learning by building:** a RAG system over code and documentation, with hybrid search, citations, abstention and held-out evaluation.
+- **How I work:** AI-assisted development with Claude Code and Codex, checked with tests and evaluation.
 
-Integra paneles de gestión, permisos por empresa, módulos operativos por rubro e incluye un asistente con IA para consultar información del negocio.
+## Featured work
 
-**🧰 Tecnologías:** Next.js · React · TypeScript · PostgreSQL · Prisma · Tailwind CSS · OpenAI
+### Codebase Explorer (RAG) · [Live demo](https://codebase-explorer-rag.onrender.com) (may take ~1 min to wake up) · [Code](https://github.com/NicolasIgles/codebase-explorer-rag)
+Ask questions about a codebase and its docs; answers cite the file and line, and the system abstains when the evidence is not enough. Personal learning project built in 3 days with Claude Code.
+- Hybrid search (lexical + embeddings, rank fusion); structure-aware ingestion (Python `ast`, Tree-sitter for JS/TS), Markdown, TXT and PDF
+- Held-out eval: expected sources retrieved in **7/7**, correct citation in **6/7** answers, correct abstention in **2/2** (small set, limits documented)
+- **72 tests**, FastAPI, deployed on Render (Dockerfile)
 
-pagina: www.somosautoflow.com
+### AutoFlow (production, private code)
+Multi-company (multi-tenant) management platform, in production with a real client. I work on development in a team of three.
+- Built the assistant with the OpenAI API and read-only tool calling
+- Built server-side access checks by user and company
+- Worked on the WhatsApp orders → webhook → n8n → platform integration
 
-*🔒 Proyecto de código privado.*
+### CSV Processing Automation · [Code](https://github.com/NicolasIgles/csv-processing-automation)
+Python + pandas CLI that cleans, normalizes and consolidates CSV files (per-file deduplication), with per-file reports, logs and pytest tests.
 
-### 🔎 Codebase Explorer
-Herramienta para consultar código o documentación mediante preguntas en lenguaje natural. Cada respuesta permite revisar los archivos de origen junto con los fragmentos citados.
+## Tech stack
 
-Ofrece búsqueda léxica o semántica, carga temporal de archivos propios, además de controles sobre el envío de información a OpenAI.
+- **AI:** OpenAI API, tool calling, RAG, embeddings, hybrid search, RAG evaluation
+- **Automation & APIs:** n8n, webhooks, REST APIs, FastAPI, WhatsApp integration
+- **Languages & data:** Python, SQL, PostgreSQL, pandas; TypeScript and Next.js (AI-assisted)
+- **Tools:** Claude Code, Codex, Git, pytest, unittest, Render, Docker (basic)
 
-**🧰 Tecnologías:** Python · HTML · CSS · JavaScript · OpenAI · Docker
+## Right now
 
-[💻 Ver código](https://github.com/NicolasIgles/codebase-explorer-rag) · [🌐 Explorar demo](https://codebase-explorer-rag.onrender.com/)
+- Studying English on my own (today: intermediate technical reading, basic speaking)
+- Planning an AI engineering course to go deeper
 
-### 📊 CSV Processing Automation
-Herramienta en Python para automatizar el procesamiento de múltiples archivos CSV: normaliza columnas, limpia valores vacíos, elimina duplicados exactos por archivo y consolida los resultados.
+## Contact
 
-Genera reportes por archivo, registra cada ejecución e incorpora trazabilidad sobre el origen de los datos.
-
-**🧰 Tecnologías:** Python
-
-[💻 Ver código](https://github.com/NicolasIgles/csv-processing-automation)
+Open to **Junior AI Engineer** and **AI Automation** roles (remote, hybrid or on-site in Buenos Aires; employment, contract or freelance).
+Best way to reach me: [LinkedIn](https://www.linkedin.com/in/nicolas-iglesias-py).
